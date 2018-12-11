@@ -60,7 +60,7 @@ public class ByCustom extends By {
 		if (null != by){
 			return by.findElements(context);
 		}
-		return ((FindsByCustomStretegy) context).findElementsByCustomStretegy(stretegy, loc);
+		return ((FindsByCustomStrategy) context).findElementsByCustomStrategy(stretegy, loc);
 	}
 
 	private By getBy(String s, String loc) {
